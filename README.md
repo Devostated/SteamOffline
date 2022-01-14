@@ -1,14 +1,20 @@
 # SteamOffline
-
-## Download
-
-The download can be found on the [Release](https://github.com/Devostated/SteamOffline/releases) page.
-
 SteamOffline sets loginuser.vdf to offline mode and read only, so steam automatically starts in offline mode.
 
 ## OfflinePatch:
 The OfflinePatch is a very aggressive method, but the safest.
 It blocks your Steam and all it's executeable from firewall for further support.
+
+## Download
+The download can be found on the [Release](https://github.com/Devostated/SteamOffline/releases) page.
+
+## Usage
+- Install a second Steam client
+- Place the SteamOffline.exe and OfflinePatch.exe into your new Steam folder
+- Run SteamOffline.exe or OfflinePatch.exe if you want to Steam to be blocked by your firewall
+- You can keep using steam.exe or SteamOffline.exe. SteamOffline.exe just makes sure that the loginuser.vdf is still in readonly and has the correct parameters.
+
+
 
 ## To revert the changes use following .bat file inside the Steam folder:
 ```bat
