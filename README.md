@@ -1,5 +1,9 @@
 # SteamOffline
 
+## Download
+
+The download can be found on the [Release](https://github.com/Devostated/SteamOffline/releases) page.
+
 SteamOffline sets loginuser.vdf to offline mode and read only, so steam automatically starts in offline mode.
 
 ## OfflinePatch:
