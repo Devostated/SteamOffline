@@ -3,7 +3,7 @@
 SteamOffline sets loginuser.vdf to offline mode and read only, so steam automatically starts in offline mode.
 
 ## OfflinePatch:
-The OfflinePatch is very aggressive method, but the safest.
+The OfflinePatch is a very aggressive method, but the safest.
 It blocks your Steam and all it's executeable from firewall for further support.
 
 ## To revert the changes use following .bat file inside the Steam folder:
