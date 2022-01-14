@@ -3,7 +3,7 @@ SteamOffline sets loginuser.vdf to offline mode and read only, so steam automati
 
 ## OfflinePatch:
 The OfflinePatch is a very aggressive method, but the safest.
-It blocks your Steam and all it's executeable from firewall for further support.
+It blocks your Steam and all it's executeables from the firewall for further support.
 
 ## Download
 The download can be found on the [Release](https://github.com/Devostated/SteamOffline/releases) page.
