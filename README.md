@@ -9,10 +9,12 @@ It blocks your Steam and all it's executeables by the firewall for further suppo
 The download can be found on the [Release](https://github.com/Devostated/SteamOffline/releases) page.
 
 ## Usage
-- Install a second Steam client
-- Place the SteamOffline.exe and OfflinePatch.exe into your new Steam folder
-- Run SteamOffline.exe or OfflinePatch.exe if you want to Steam to be blocked by your firewall
-- You can keep using steam.exe or SteamOffline.exe. SteamOffline.exe just makes sure that the loginuser.vdf is still in read only and has the correct parameters.
+- install a second Steam client
+- login and install games you want to run offline
+- close Steam
+- place the SteamOffline.exe and OfflinePatch.exe into your new Steam folder
+- run SteamOffline.exe or OfflinePatch.exe if you want to Steam to be blocked by your firewall
+- you can keep using steam.exe or SteamOffline.exe. SteamOffline.exe just makes sure that the loginuser.vdf is still in read only and has the correct parameters.
 
 
 
