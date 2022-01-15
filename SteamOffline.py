@@ -9,12 +9,12 @@ os.chmod(filename, S_IWUSR|S_IREAD)
 with open('config/loginusers.vdf', 'r') as file :
   filedata = file.read()
 
-filedata = filedata.replace('"WantsOfflineMode"		"0"', '"WantsOfflineMode"		"1"')
+filedata = filedata.replace('"WantsOfflineMode"\t\t\"0"', '"WantsOfflineMode"\t\t\"1"')
 skipWarning = '"SkipOfflineModeWarning"'
 if skipWarning in filedata:
-    filedata = filedata.replace('"SkipOfflineModeWarning"		"0"', '"SkipOfflineModeWarning"		"1"')
+    filedata = filedata.replace('"SkipOfflineModeWarning"\t\t\"0"', '"SkipOfflineModeWarning"\t\t\"1"')
 else:
-    filedata = filedata.replace('"WantsOfflineMode"		"1"', '"WantsOfflineMode"		"1"\n		"SkipOfflineModeWarning"		"1"')
+    filedata = filedata.replace('"WantsOfflineMode"\t\t\"1"', '"WantsOfflineMode"\t\t\"1"\n		"SkipOfflineModeWarning"\t\t\"1"')
 
 
 with open('config/loginusers.vdf', 'w') as file:
