@@ -9,7 +9,7 @@ It blocks your Steam and all it's executeables by the firewall for further suppo
 The download can be found on the [Release](https://github.com/Devostated/SteamOffline/releases) page.
 
 ## Usage
-- install a second Steam client
+- install a second Steam client - Recommend using Steam Beta if you want to use second account
 - login and install games you want to run offline
 - close Steam
 - place the SteamOffline.exe and OfflinePatch.exe into your new Steam folder
