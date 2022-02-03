@@ -14,7 +14,7 @@ skipWarning = '"SkipOfflineModeWarning"'
 if skipWarning in filedata:
     filedata = filedata.replace('"SkipOfflineModeWarning"\t\t\"0"', '"SkipOfflineModeWarning"\t\t\"1"')
 else:
-    filedata = filedata.replace('"WantsOfflineMode"\t\t\"1"', '"WantsOfflineMode"\t\t\"1"\n		"SkipOfflineModeWarning"\t\t\"1"')
+    filedata = filedata.replace('"WantsOfflineMode"\t\t\"1"', '"WantsOfflineMode"\t\t\"1"\n\t\t"SkipOfflineModeWarning"\t\t\"1"')
 
 
 with open('config/loginusers.vdf', 'w') as file:
