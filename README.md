@@ -12,6 +12,7 @@ The download can be found on the [Release](https://github.com/Devostated/SteamOf
 - install a second Steam client - Recommend using Steam Beta if you want to use second account
 - login and install games you want to run offline
 - close Steam
+- Make sure `"WantsOfflineMode"` is in the Steam/config/loginusers.vdf If not go in offline mode once (Steam > Go offline), restart and close Steam.
 - place the SteamOffline.exe and OfflinePatch.exe into your new Steam folder
 - run SteamOffline.exe or OfflinePatch.exe if you want to Steam to be blocked by your firewall
 - you can keep using steam.exe or SteamOffline.exe. SteamOffline.exe just makes sure that the loginuser.vdf is still in read only and has the correct parameters.
